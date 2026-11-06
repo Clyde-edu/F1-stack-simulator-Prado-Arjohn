@@ -1,32 +1,72 @@
-body{
-    background-color: #495579;
+
+body {
+    background-color: #485b83;
+    padding-top: 5px;
 }
-#stack{
+
+.container {
+    margin-top: 0;
+}
+
+.simulator {
+    min-height: 230px;
+}
+
+.operations {
+    background-color: #7B8FA1;
+    padding: 5px;
+}
+
+.stack-data {
+    background-color: #527FA5;
+    min-height: 225px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-.push, .pop{
-   width: 50px;
-   height: 50px;
-   border-radius: 5px;
-   margin:  5px auto;
-   align-content: center;
-   justify-content: center;
-}
-.pop{
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-   
-   
-}
- .popped{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
- }
-.bg-7B8FA1{
-    background-color: #7B8FA1;
-}   
-.bg-9C254D{
+
+.deleted-data {
     background-color: #9C254D;
+    min-height: 225px;
+    padding: 5px;
+}
+
+.stack-item {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #2879B9;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.deleted-item {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #dc3545;
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.highlight {
+    background-color: #ffc107 !important;
+    color: black !important;
+    border: 3px solid orange;
+    font-weight: bold;
+}
+
+.operations button {
+    padding: 8px;
+    margin-bottom: 2px;
+}
+
+.operations input {
+    margin-bottom: 3px;
 }
