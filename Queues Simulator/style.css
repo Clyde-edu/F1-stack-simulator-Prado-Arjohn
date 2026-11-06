@@ -1,0 +1,29 @@
+/* Custom color classes matching original interface styling */
+.bg-7B8FA1 {
+    background-color: #7B8FA1;
+}
+
+.bg-9C254D {
+    background-color: #9C254D;
+}
+
+.simulator-body {
+    min-height: 320px;
+}
+
+/* Items inside the queue display */
+.queue-item {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Items in deleted section */
+.deleted-item {
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+}
